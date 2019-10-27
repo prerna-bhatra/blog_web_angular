@@ -5,6 +5,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { FormsModule } from '@angular/forms';
+
 import { MatToolbarModule, MatIconModule, MatSidenavModule, MatListModule, MatButtonModule } from  '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -35,7 +37,8 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     MatSidenavModule,
     MatListModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    FormsModule
   ],
    exports:[
    BrowserModule,
@@ -51,4 +54,6 @@ import { SidenavComponent } from './sidenav/sidenav.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  opened=false;
+ }
