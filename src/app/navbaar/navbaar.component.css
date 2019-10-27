@@ -77,7 +77,7 @@ ul li a,i
 {
     color:gray;
 }
-ul li:hover
+mat-sidenav ul li:hover
 {
     background-color:skyblue;
 }
@@ -88,5 +88,5 @@ ul li i
 .first_content ul li
 {
     display:inline-block;
-    
+
 }

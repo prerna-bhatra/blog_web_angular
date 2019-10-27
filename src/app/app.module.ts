@@ -18,6 +18,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { NavbaarComponent } from './navbaar/navbaar.component';
 import { HomeComponent } from './home/home.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { PostallComponent } from './postall/postall.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     DashboardComponent,
     NavbaarComponent,
     HomeComponent,
-    SidenavComponent
+    SidenavComponent,
+    PostallComponent
   ],
   imports: [
     BrowserModule,
