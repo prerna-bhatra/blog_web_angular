@@ -55,5 +55,5 @@ import { SidenavComponent } from './sidenav/sidenav.component';
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  opened=false;
+  opened=true;
  }

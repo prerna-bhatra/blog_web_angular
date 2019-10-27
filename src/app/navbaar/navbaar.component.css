@@ -64,7 +64,7 @@ mat-sidenav
     padding-right:0px;
 }
 
-ul li
+mat-sidenav ul li
 {
     
     font-size:20px;
@@ -84,4 +84,9 @@ ul li:hover
 ul li i
 {
     padding-right:5px;
+}
+.first_content ul li
+{
+    display:inline-block;
+    
 }
