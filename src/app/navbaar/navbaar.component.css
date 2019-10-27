@@ -6,7 +6,7 @@ a {
 a:hover, a:active{
     color: lightgray;
 }
- 
+  
 .navigation-items{
     list-style-type: none;
     padding: 0;
@@ -15,6 +15,7 @@ a:hover, a:active{
  
 mat-toolbar{
     border-radius: 3px;
+    background-color: blue;
     
 }
  
@@ -22,4 +23,18 @@ mat-toolbar{
     mat-toolbar{
         border-radius: 0px;
     }
+}
+mat-sidenav-container
+{
+    height:100%; 
+}
+mat-sidenav,mat-sidenav-content
+{
+    padding:16px;
+}
+
+mat-sidenav
+{
+    background-color: lightcoral;
+    width:200px;
 }

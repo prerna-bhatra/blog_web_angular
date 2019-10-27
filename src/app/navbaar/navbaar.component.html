@@ -1,4 +1,4 @@
-<mat-toolbar  >
+<mat-toolbar >
   <div fxHide.gt-xs>
       <button mat-icon-button (click)="onToggleSidenav()">
           <mat-icon>menu</mat-icon>
@@ -6,3 +6,10 @@
      <!-- <button mat-raised-button>dghgids</button>-->
   </div>
 </mat-toolbar>
+
+<mat-sidenav-container>
+	<mat-sidenav mode="push" opened>Sidenav</mat-sidenav>
+	<mat-sidenav-content>
+		main
+	</mat-sidenav-content>
+</mat-sidenav-container>
