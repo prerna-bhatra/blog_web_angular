@@ -288,44 +288,9 @@ color:white;
 @keyframes example
  {
   0%   {background-color: red;}
-  25%  {background-color: yellow;}
+  25%  {background-color: pink;}
   50%  {background-color: blue;}
   100% {background-color: green;}
 
 }
-/*
-.img1
-{
-	-webkit-animation: mymove 5s ; /* Safari 4.0 - 8.0 */
-  /*
-}
 
-
-.img1
-{animation-timing-function: ease-out;}
-
-@keyframes mymove {
-  0%   {bottom: 120%;}
-  25%  {bottom: 100%;}
-  50%  {bottom: 0%;}
-  100% {display: hide;}
-}
-
-.img4
-{
-	-webkit-animation: mymove 5s ; /* Safari 4.0 - 8.0 */
-  /*
-}
-
-
-.img4
-{animation-timing-function: ease-out;}
-
-@keyframes mymove {
-  0%   {bottom: 70%;}
-  25%  {bottom: 60%;}
-  50%  {bottom: 0%;}
-  100% {display: hide;}
-}
-
-*/

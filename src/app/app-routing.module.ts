@@ -7,8 +7,12 @@ import { PostallComponent } from './postall/postall.component';
 const routes: Routes = [
 {path:'',component:HomeComponent},
 {path:'dashboard',component:DashboardComponent},
-{path:'navbaar',component:NavbaarComponent},
-{path:'postall',component:PostallComponent}
+{path:'navbaar',component:NavbaarComponent,
+	children:[
+	{path:'postall',component:PostallComponent}
+	]
+},
+
 ];
 
 @NgModule({
