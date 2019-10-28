@@ -13,6 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 
+
 import { HeaderComponent } from './header/header.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NavbaarComponent } from './navbaar/navbaar.component';
@@ -20,6 +21,7 @@ import { HomeComponent } from './home/home.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { PostallComponent } from './postall/postall.component';
 
+import { AgGridModule } from 'ag-grid-angular';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,7 +42,8 @@ import { PostallComponent } from './postall/postall.component';
     MatListModule,
     MatButtonModule,
     MatIconModule,
-    FormsModule
+    FormsModule,
+    AgGridModule.withComponents([])
   ],
    exports:[
    BrowserModule,
