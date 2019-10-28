@@ -22,6 +22,10 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { PostallComponent } from './postall/postall.component';
 
 import { AgGridModule } from 'ag-grid-angular';
+import { DataTableComponent } from './data-table/data-table.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +34,8 @@ import { AgGridModule } from 'ag-grid-angular';
     NavbaarComponent,
     HomeComponent,
     SidenavComponent,
-    PostallComponent
+    PostallComponent,
+    DataTableComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +48,10 @@ import { AgGridModule } from 'ag-grid-angular';
     MatButtonModule,
     MatIconModule,
     FormsModule,
-    AgGridModule.withComponents([])
+    AgGridModule.withComponents([]),
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
    exports:[
    BrowserModule,
