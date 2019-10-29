@@ -6,6 +6,7 @@ import {NavbaarComponent} from './navbaar/navbaar.component';
 import { PostallComponent } from './postall/postall.component';
 import { CommentsComponent } from './comments/comments.component';
 import { EarningsComponent } from './earnings/earnings.component';
+import { ThemesComponent } from './themes/themes.component';
 const routes: Routes = [
 {path:'',component:HomeComponent},
 {path:'dashboard',component:DashboardComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
 	children:[
 	{path:'postall',component:PostallComponent},
 	{path:'comments',component:CommentsComponent },
-	{path:'earnings',component:EarningsComponent }
+	{path:'earnings',component:EarningsComponent },
+	{path:'themes',component:ThemesComponent}
 	]
 },
 
