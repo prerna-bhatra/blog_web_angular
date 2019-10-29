@@ -1,8 +1,9 @@
-
+body
 {
 	margin:0;
 	padding: 0;
 	box-sizing: 0;
+	overflow: hidden;
 }
 .home_header
 {
@@ -118,6 +119,7 @@ height:115%;
 	background-color:#ff8000;
 	color: white;
 	position: relative;
+	overflow:hidden;
 }
 .home_main1
 {
@@ -160,6 +162,7 @@ height:115%;
 	background-color: #bc382e;
 	color: white;
 	position: relative;
+	overflow:hidden;
 }
 .home2_main
 {

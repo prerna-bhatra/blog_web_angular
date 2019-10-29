@@ -33,6 +33,7 @@ import { ThemesComponent } from './themes/themes.component';
 import { SettingsComponent } from './settings/settings.component';
 import { ReadinglistComponent } from './readinglist/readinglist.component';
 import { HelpComponent } from './help/help.component';
+import { FormComponent } from './form/form.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,7 +50,8 @@ import { HelpComponent } from './help/help.component';
     ThemesComponent,
     SettingsComponent,
     ReadinglistComponent,
-    HelpComponent
+    HelpComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,

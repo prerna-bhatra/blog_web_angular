@@ -7,6 +7,8 @@ import { PostallComponent } from './postall/postall.component';
 import { CommentsComponent } from './comments/comments.component';
 import { EarningsComponent } from './earnings/earnings.component';
 import { ThemesComponent } from './themes/themes.component';
+import { SettingsComponent } from './settings/settings.component';
+import { HelpComponent } from './help/help.component';
 const routes: Routes = [
 {path:'',component:HomeComponent},
 {path:'dashboard',component:DashboardComponent},
@@ -15,7 +17,9 @@ const routes: Routes = [
 	{path:'postall',component:PostallComponent},
 	{path:'comments',component:CommentsComponent },
 	{path:'earnings',component:EarningsComponent },
-	{path:'themes',component:ThemesComponent}
+	{path:'themes',component:ThemesComponent},
+	{path:'settings',component:SettingsComponent},
+	{path:'help',component:HelpComponent},
 	]
 },
 
