@@ -26,6 +26,13 @@ import { DataTableComponent } from './data-table/data-table.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { CommentsComponent } from './comments/comments.component';
+import { EarningsComponent } from './earnings/earnings.component';
+import { PagesComponent } from './pages/pages.component';
+import { ThemesComponent } from './themes/themes.component';
+import { SettingsComponent } from './settings/settings.component';
+import { ReadinglistComponent } from './readinglist/readinglist.component';
+import { HelpComponent } from './help/help.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +42,14 @@ import { MatSortModule } from '@angular/material/sort';
     HomeComponent,
     SidenavComponent,
     PostallComponent,
-    DataTableComponent
+    DataTableComponent,
+    CommentsComponent,
+    EarningsComponent,
+    PagesComponent,
+    ThemesComponent,
+    SettingsComponent,
+    ReadinglistComponent,
+    HelpComponent
   ],
   imports: [
     BrowserModule,

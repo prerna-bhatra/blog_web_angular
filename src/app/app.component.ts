@@ -9,10 +9,5 @@ export class AppComponent {
   title = 'blog';
 
 
-  ngOnit()
-  {
-  AOS.init();
-  }
-
 
 }

@@ -4,12 +4,16 @@ import {DashboardComponent} from './dashboard/dashboard.component';
 import {HomeComponent} from './home/home.component';
 import {NavbaarComponent} from './navbaar/navbaar.component';
 import { PostallComponent } from './postall/postall.component';
+import { CommentsComponent } from './comments/comments.component';
+import { EarningsComponent } from './earnings/earnings.component';
 const routes: Routes = [
 {path:'',component:HomeComponent},
 {path:'dashboard',component:DashboardComponent},
 {path:'navbaar',component:NavbaarComponent,
 	children:[
-	{path:'postall',component:PostallComponent}
+	{path:'postall',component:PostallComponent},
+	{path:'comments',component:CommentsComponent },
+	{path:'earnings',component:EarningsComponent }
 	]
 },
 
